@@ -65,4 +65,11 @@ Helsinki-NLP/opus-mt-en-fr
 
 ##### Machine translation is mainly an equipment that helps specialists or translators to accomplish a pattern. However, it is not a replacement for the old translation systems, rather it is a substantive modification. Many machine translators offer their services considerably for free, which makes them much more attractive.
 
+### REPORT: 
+[NLP TRANSLATION.pdf](https://github.com/timmiyassine/nlp-project-translation/blob/main/Report/NLP%20TRANSLATION.pdf)
 
+Our Team
+        - YASSINE TIMMI
+        - ZAKARIA BENZEROUAL
+    Supervised By :    
+        - Pr. ABDELHAK MAHMOUDI
