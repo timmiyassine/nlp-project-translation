@@ -1,4 +1,4 @@
-# nlp project translation
+# NLP project translation
 
 
 ## Build Your Own Machine Translation Service with Transformers
@@ -14,18 +14,18 @@ More recently, Huggingface released over 1,000 pre-trained language models from 
 ### Machine Translation with Transformers
 Huggingface has done an incredible job making SOTA (state of the art) models available in a simple Python API for copy + paste coders like myself. To translate text locally, you just need to pip install transformers and then use the snippet below from the transformers docs. https://huggingface.co/transformers/model_doc/marian.html
 
-from transformers import MarianTokenizer, MarianMTModel
-from typing import List
-src = 'fr'  # source language
-trg = 'en'  # target language
-sample_text = "où est l'arrêt de bus ?"
-mname = f'Helsinki-NLP/opus-mt-{src}-{trg}'
+###### from transformers import MarianTokenizer, MarianMTModel
+###### from typing import List
+###### src = 'fr'  # source language
+###### trg = 'en'  # target language
+###### sample_text = "où est l'arrêt de bus ?"
+###### mname = f'Helsinki-NLP/opus-mt-{src}-{trg}'
 
-model = MarianMTModel.from_pretrained(mname)
-tok = MarianTokenizer.from_pretrained(mname){
-batch = tok.prepare_translation_batch(src_texts=[sample_text])  # don't need tgt_text for inference
-gen = model.generate(**batch)  # for forward pass: model(**batch)
-words: List[str] = tok.batch_decode(gen, skip_special_tokens=True)  # returns "Where is the the bus stop ?"
+###### model = MarianMTModel.from_pretrained(mname)
+###### tok = MarianTokenizer.from_pretrained(mname){
+###### batch = tok.prepare_translation_batch(src_texts=[sample_text])  # don't need tgt_text for inference
+###### gen = model.generate(**batch)  # for forward pass: model(**batch)
+###### words: List[str] = tok.batch_decode(gen, skip_special_tokens=True)  # returns "Where is the the bus stop ?"
 
 ## Dynamic Language Translation in Python
 Now that we have a better way to manage the languages we support, let’s get to the meat of the problem, then a class and associated methods to manage our translations.
