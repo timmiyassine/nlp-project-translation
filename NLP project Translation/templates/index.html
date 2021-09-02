@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex, nofollow"> 
+        <title>Translate Your Text</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="icon" type="image/png" href="../static/img/favicon.png"/>
+        <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <link media="all" type="text/css" rel="stylesheet" href="https://bootsnipp.com/css/fullscreen.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+        <!------ Include the above in your HEAD tag ---------->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        
+        <!------ Include the above in your HEAD tag ---------->
+        <link href="https://fonts.googleapis.com/css?family=Faster+One:400,700" rel="stylesheet">
+   	    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+   	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!--My script -->
+        <script src="../static/js/style.js"></script>
+    </head>
+    <Body id="contact">
+        <section>
+			<div class="section-content col-md-12">
+				<h1 class="section-header"> 
+                    <a href="../">
+                        <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Translate Your Text</span>
+                    </a>
+                </h1>
+				<h3>Write and click <b class="colorP">TRANSLATE</b></h3>
+			</div>
+			<div class="container col-md-12">
+				<form method="POST" action="/translated">	
+					<div class="col-md-6">
+					    <div class="form-group"> 
+					        <label for ="from"> From</label>
+					        <select name="original_select" id="original_select" class="country">
+                                <option value="en" {% if  original_select == 'en' %} {{ 'selected' }}{% endif  %}>English</option>
+                                <option value="fr" {% if  original_select == 'fr' %} {{ 'selected' }}{% endif  %}>French</option>
+                                <option value="ar" {% if  original_select == 'ar' %} {{ 'selected' }}{% endif  %}>Arabic</option>
+                            </select> 
+                        </div>
+			  			<div class="form-group">
+			  			 	<textarea  class="form-control"  name="original_text" placeholder="Enter Your Text">{% if original_text %}{{ original_text }}{% endif %}</textarea>
+			  			</div>
+			  		</div>
+			  		<div class="col-md-6">
+			  		    <div class="form-group"> 
+					        <label for ="from"> From</label>
+					        <select name="translated_select" class="country">
+                                <option value="fr" {% if  translated_select == 'fr' %} {{ 'selected' }}{% endif  %}>French</option>
+                                <option value="en" {% if  translated_select == 'en' %} {{ 'selected' }}{% endif  %}>English</option>
+                            </select> 
+                        </div>
+			  			<div class="form-group">
+			  			 	<textarea  class="form-control" name="translated_text" id="translated" placeholder="Translated text will be here">{% if translated_text %}{{ translated_text }}{% endif %}</textarea>
+			  			</div>
+			  			<div>
+			  				<button type="submit" class="btn btn-submit submit"><i class="fa fa-globe" aria-hidden="true"></i>   TRANSLATE</button>
+			  			</div>
+					</div>
+				</form>
+			</div>
+        
+        </section>
+    </Body>
+</html>
+
