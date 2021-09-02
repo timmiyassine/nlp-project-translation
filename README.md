@@ -71,5 +71,5 @@ Helsinki-NLP/opus-mt-en-fr
 Our Team
         - YASSINE TIMMI
         - ZAKARIA BENZEROUAL
-    Supervised By :    
+Supervised By :    
         - Pr. ABDELHAK MAHMOUDI
