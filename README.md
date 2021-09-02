@@ -38,6 +38,6 @@ We need a couple of functions here:
 
 ## Création de l’application web
     Pour arriver à notre objectif, qui a la réalisation d’une application de traduction nous avons pensé à la création d’une application web connecté à notre librairie  qui sert à la traduction d’un texte en français vers l’anglais et vice versa. 
-    ![image](https://drive.google.com/drive/folders/17YlVCqp7WW_GbUe2U5DoyabPITclfzKy) 
+![1](https://user-images.githubusercontent.com/28071950/131918751-3cbf809e-d5e6-43ec-97d8-4d8fc9366cc1.PNG) ![2](https://user-images.githubusercontent.com/28071950/131918709-ba75253b-abd8-40ae-a4dd-e474c0947184.PNG)
 
 
