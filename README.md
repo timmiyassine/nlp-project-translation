@@ -68,8 +68,8 @@ Helsinki-NLP/opus-mt-en-fr
 ### REPORT: 
 [NLP TRANSLATION.pdf](https://github.com/timmiyassine/nlp-project-translation/blob/main/Report/NLP%20TRANSLATION.pdf)
 
-	Our Team
-		- YASSINE TIMMI
-		- ZAKARIA BENZEROUAL
-	Supervised By :    
-       		- Pr. ABDELHAK MAHMOUDI
+### Our Team
+	- YASSINE TIMMI
+	- ZAKARIA BENZEROUAL
+### Supervised By :    
+	- Pr. ABDELHAK MAHMOUDI
