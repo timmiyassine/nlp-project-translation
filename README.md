@@ -36,6 +36,8 @@ We need a couple of functions here:
     ► load and manage models we don’t have into memory (I use a simple dict)
     ► get supported languages (what languages did we download for this app?)
 
-
+## Création de l’application web
+    Pour arriver à notre objectif, qui a la réalisation d’une application de traduction nous avons pensé à la création d’une application web connecté à notre librairie  qui sert à la traduction d’un texte en français vers l’anglais et vice versa. 
+    ![image](https://drive.google.com/drive/folders/17YlVCqp7WW_GbUe2U5DoyabPITclfzKy) 
 
 
